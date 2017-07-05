@@ -35,7 +35,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: 50 5
+// A: 45
 
 
 // 7.
@@ -46,6 +46,7 @@ let born = 1984;
 let today = 2017;
 // A:
 let age = today - born;
+console.log(age);
 
 // 8.
 // Adjust this code. Store some information in the following variables.
@@ -79,17 +80,17 @@ let myUndefined;
 
 // 11.
 let m = (false == 0);
-// A. m = false
+// A. m = true
 
 
 // 12.
 let y = (false == "");
-// A. y = false
+// A. y = true
 
 
 // 13.
 let z = (0 == "");
-// A. z = false
+// A. z = true
 
 
 // 14.
@@ -119,7 +120,7 @@ let e = (NaN == null);
 
 // 19.
 let f = (NaN == NaN);
-// A. f = true
+// A. f = false
 
 
 // 20.
@@ -174,7 +175,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A: True!
+// A: False!
 
 
 // 25.
